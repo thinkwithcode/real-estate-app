@@ -1,0 +1,24 @@
+.container{
+    margin: 3rem 6rem ;
+}
+.input_search{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+   
+}
+
+input{
+    outline: none;
+    border:2px solid gainsboro;
+    padding: 0px 12px;
+}
+
+
+
+.realstateItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

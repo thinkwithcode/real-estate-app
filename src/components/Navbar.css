@@ -1,0 +1,75 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #fbfaff;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  text-decoration: none;
+}
+.nav_leftItems a{
+  text-decoration: none;
+}
+.logo img {
+  width: 20px;
+  /* background-color: blue; */
+  padding-right: 3px;
+}
+.nav_leftItems {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.rent {
+  background-color: #e8e6f9;
+  padding: 3px 6px;
+  border-radius: 2px;
+  color: rgba(0, 0, 255, 0.722);
+}
+.resources,
+.manage_property {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+.resources img,
+.manage_property img {
+  width: 9px;
+}
+
+/* Button Side */
+.nav_rightItems {
+  display: flex;
+  margin-left: 62px;
+  /* border: 2px solid red; */
+  gap: 6px;
+}
+
+.nav_rightItems button {
+  border-radius: 3.9px;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.login {
+  color: blue;
+  background-color: #faf9fe;
+  border-color: rgba(189, 189, 190, 0.622);
+  font-weight: bold;
+
+  border: 2px solid gainsboro;
+}
+
+.signup {
+  color: #faf9fe;
+  background-color: rgba(0, 0, 255, 0.722);
+  font-weight: bold;
+  border: 2px solid gainsboro;
+}
